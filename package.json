@@ -1,0 +1,28 @@
+{
+  "name": "estree",
+  "version": "1.0.0",
+  "description": "Once upon a time, an [unsuspecting Mozilla engineer](http://calculist.org) created an API in Firefox that exposed the SpiderMonkey engine's JavaScript parser as a JavaScript API. Said engineer [documented the format it produced](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Parser_API), and this format caught on as a lingua franca for tools that manipulate JavaScript source code.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estree/estree.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/estree/estree/issues"
+  },
+  "homepage": "https://github.com/estree/estree#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/parser": "^7.10.5",
+    "@babel/generator": "^7.10.5"
+  }
+}
